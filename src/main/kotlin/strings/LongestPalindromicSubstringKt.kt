@@ -1,3 +1,5 @@
+package strings
+
 class LongestPalindromicSubstringKt {
     var left: Int = 0
     var maxLen: Int = 0

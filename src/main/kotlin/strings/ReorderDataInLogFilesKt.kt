@@ -1,3 +1,5 @@
+package strings
+
 class ReorderDataInLogFilesKt {
     fun reorderLogFiles(logs: Array<String>): Array<String> {
         val digitList = ArrayList<String>()

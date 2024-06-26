@@ -1,3 +1,5 @@
+package strings;
+
 public class LongestPalindromicSubstring {
     int start;
     int maxLength;

@@ -1,3 +1,5 @@
+package strings
+
 class ReverseStringKt {
 
     fun reverseString(s: CharArray): Unit {

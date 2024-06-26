@@ -1,3 +1,5 @@
+package strings
+
 class MostCommonWordKt {
     fun mostCommonWord(paragraph: String, banned: Array<String>): String? {
         val words = paragraph.split("[\\s,]+".toRegex())

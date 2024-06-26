@@ -1,3 +1,5 @@
+package strings
+
 class ValidPalindromeKt {
 
     fun isPalindrome(s: String): Boolean {
@@ -42,9 +44,9 @@ class ValidPalindromeKt {
 fun main() {
     val validPalindrome = ValidPalindromeKt()
     val input = "A man, a plan, a canal: Panama"
-    val input2 = "race a car"
-    val input3 = " "
-    val input4 = "0P"
+    // val input2 = "race a car"
+    // val input3 = " "
+    // val input4 = "0P"
 
     println(validPalindrome.isPalindrome(input))
 }

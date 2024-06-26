@@ -1,4 +1,4 @@
-import java.util.*
+package strings
 
 class GroupAnagramsKt {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
